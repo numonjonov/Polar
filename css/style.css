@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+header {
+    background: rgb(242, 207, 218, 0.3);
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    margin-right: 172px;
+}
+
+.header-list li {
+    margin-right: 40px;
+}
+
+.header-list li:last-child {
+    margin-right: 0;
+}
+
+
+.header-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+    transition: color 0.2s;
+}
+
+.header-link:hover {
+    color: #D23166;
+}
+
+.buy-link {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    padding: 14px 50px;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+
+.intro {
+    height: 742px;
+    padding: 37px 0 98px;
+    background: rgb(242, 207, 218, 0.3);
+}
+
+
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.intro-left {
+    width: 665px;
+}
+
+
+
+.intro-span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+
+.intro-left h1 {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    margin: 6px 0 35px;
+}
+
+.intro-left h1 span {
+    color: #D23166;
+}
+
+
+.intro-left p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+    width: 523px;
+}
+
+.intro-right {
+    position: relative;
+    width: 518px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-ice {
+    z-index: 1;
+    width: 598px;
+}
+
+.intro-milk {
+    position: absolute;
+    transform: rotate(4.79deg);
+    top: 165px;
+    z-index: 2;
+}
+
+
+.intro-elipse {
+    position: absolute;
+    top: 273px;
+    left: 110px;
+    width: 365px;
+    height: 353px;
+}
+
+
+
+.brown-bg {
+    background: rgb(242, 207, 218, 0.3);
+    width: 100%;
+}
+
+.brown-content {
+    display: flex;
+    align-items: center;
+    padding: 65px 0 118px;
+    justify-content: space-between;
+}
+
+.brown-left {
+    width: 442px;
+}
+
+.brown-left h2 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+}
+
+.brown-left p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin: 16px 0 35px;
+}
+
+.products{
+    padding: 130px 0;
+}
+
+
+.products-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.products h2 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    margin-bottom: 64px;
+}
+
+.products-nav {
+    width: 905px;
+}
+
+.products-list {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.products-list li {
+    margin-right: 39px;
+}
+
+.products-list li:last-child {
+    margin-right: 0;
+}
+
+
+.products-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s opacity;
+}
+
+.products-link:hover {
+    opacity: 1;
+    border-bottom: 3px solid #D64374;
+}
+
+
+.product-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.product-text h3 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0 0 11px 0;
+}
+
+.product-text-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 28px;
+    width: 454px;
+}
+
+.products-price {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.products-price p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-right: 5px;
+}
+
+
+.products-price span {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.question{
+    padding: 30px 0 70px;
+}
+
+.question-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.question-content h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    width: 522px;
+}
+
+
+.question-form {
+    width: 636px;
+}
+
+.form-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form-top input {
+    width: 303px;
+    outline: none;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+    padding: 29px 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+}
+
+
+.form-top input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+}
+
+
+.big-input {
+    width: 100%;
+    height: 74px;
+}
+
+
+
+.big-input {
+    outline: none;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+    padding: 29px 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    margin-top: 37px;
+}
+
+
+.big-input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+}
+
+
+.question-form {
+    position: relative;
+    margin-top: 36px;
+}
+
+.question-form button {
+    top: 113.5px;
+    right: 0;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 26px 46px;
+    background: #D64374;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+
+footer {
+    background: #0A0808;
+    padding: 70px 0 100px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 37px;
+}
+
+
+
+.footer-logo span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 207px;
+    margin-top: 9px;
+}
+
+
+
+.footer-logo p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+
+.footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+
+.footer-list {
+    margin-right: 132px;
+}
+
+.footer-list:last-child {
+    margin-right: 0;
+}
+
+
+.footer-list li {
+    margin-bottom: 10px;
+}
+
+.footer-list h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.footer-lists {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+
+
+
+
+.footer-input {
+    width: 388px;
+    height: 55px;
+    outline: none;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+    padding: 29px 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 37px;
+    background: #0A0808;
+}
+
+
+.footer-input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+
+
+.footer-form button {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #D64374;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 18px 18px;
+    right: 0;
+    top: 0;
+}
+
+
+.footer-form {
+    position: relative;
+    width: 388px;
+    margin-top: 13px;
+}
+
+
+.footer-pay img {
+    margin-right: 12px;
+}
+
+.footer-pay img:last-child {
+    margin-right: 0;
+}
+
+.footer-pay {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-input{
+    margin-top: 0;
+}
+
+
+.footer-sub h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+}
+
